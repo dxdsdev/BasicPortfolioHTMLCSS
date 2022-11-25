@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-container{
+    display: flex;    
+}
+
+.image-container img{
+    width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #1f1f1f;
+    
+    padding: 10px 50px;
+}
+
+#logo{
+    width: 50px;
+}
+
+#logo img{
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+/* Hero */
+#hero{
+    position: relative;
+}
+
+#hero #computadora{
+    display: inline-block;    
+    width: 100%;
+}
+
+#hero .informacion-contenedor{
+    position:absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    /* place-items: center; */
+    padding: 0 50px;
+    place-content: center;
+    place-items: center;
+}
+
+#hero .informacion-contenedor #foto{
+    width: 200px;    
+}
+
+#hero .informacion-contenedor #foto img{
+    border-radius: 100%;
+}
+
+.informacion{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-left: 20px;
+    font-weight: bold;
+    width: calc(100%-200px);
+}
+
+.informacion span{
+    color: #b5b5b5;
+    margin-bottom: 50px;
+}
+
+main{
+    padding: 100px;
+}
+
+main .social-icons{
+    margin-top: 40px;
+    display: flex;
+    place-content: center;
+    list-style: none;
+}
+
+main .social-icons li{
+    margin: 5px;
+    text-decoration: none;
+}
+
+main .social-icons .social-icon{
+    display: flex;
+    background-color: #1f1f1f;
+    place-content: center;
+    place-items: center;
+    padding: 15px;    
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+main .social-icons #LinkedIn{
+    background-color: #0077b0;
+}
+
+
+main .social-icons #GitHub{
+    background-color: #23272d;
+}
+
+
+main .social-icons #Twitter{
+    background-color: #1da1f2;
+}
+
+
+main .social-icons #Youtube{
+    background-color: #f70000;
+}
+
+
+main .social-icons #Platzi{
+    background-color: #121f3d;
+}
